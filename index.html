@@ -157,6 +157,94 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/08/svelte-study/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/111.bmp">
+      <meta itemprop="name" content="SJJ">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="DaumJJ Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/10/08/svelte-study/" class="post-title-link" itemprop="url">Svelte-Study</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-10-08 12:16:11 / Modified: 12:41:14" itemprop="dateCreated datePublished" datetime="2021-10-08T12:16:11+08:00">2021-10-08</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">前端</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Svelte心得"><a href="#Svelte心得" class="headerlink" title="Svelte心得"></a><strong>Svelte心得</strong></h1><h3 id="svelte的介绍"><a href="#svelte的介绍" class="headerlink" title="svelte的介绍"></a>svelte的介绍</h3><p>svelte是一种全新的构建用户界面的方法。传统框架React和Vue在浏览器中需要做大量的工作，而Svelte将在这些工作放到构建应用程序的编译阶段来处理。使用虚拟DOM差异对比不同。Svelte编写的代码在应用程序的状态更改时就能像做外科手术一样更新DOM。<br>优点：</p>
+<blockquote>
+<p>减少代码量；<br>无虚拟DOM，将代码编译成体积小、不依赖框架的普通JS代码，让应用程序无论运行还是启动都变得迅速；<br>真正的反映能力。</p>
+</blockquote>
+<p>以上内容为一些官方术语，作为一个新手来说一开始就分析svelte的优缺点有一定难度。即使网上一些优秀文章做了深入的分析，但看起来也是一知半解，不能很好的领悟。<br>svelte是一个比较新的框架，在学习之前应该要掌握HTML、CSS、JavaScript的相关知识，如果之前学过vue、react等框架的话，学习svelte将会很容易上手。</p>
+<p>一开始在svelte官网的入门教程中学习，可直接在线编写代码。少了安装配置的过程，新手即可立即在线编写调试代码，这适合前期的入门学习。<br>如果要通过sevlte框架来开发项目，需要自行安装配置svelte。使用终端创建对应文件夹（默认node等相关软件已经安装的情况下）<br>终端命令找到你需要创建的文件地址输入如下命令</p>
+<table><tr><td bgcolor=#282c35>
+
+<blockquote>
+<p> <font color=#b6bac5>degit sveltejs/template my-svelte-project  </font><br><font color=#b6bac5>cd my-svelte-project</font><br><font color=#b6bac5>code .</font></p>
+</blockquote>
+</td></tr></table>
+
+<p>即可通过vscode打开项目</p>
+<p><code>npm run dev</code></p>
+<p>即可运行。</p>
+<hr>
+<p>vscode有svelte的扩展库，同时也可以将项目上传到github中。关于svelte的相关学习资源并不多，主要的还是一些入门教程。在B站上看的视频学习链接：<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1kK411H78s?from=search&amp;seid=9149985544011493031&amp;spm_id_from=333.337.0.0">https://www.bilibili.com/video/BV1kK411H78s?from=search&amp;seid=9149985544011493031&amp;spm_id_from=333.337.0.0</a></p>
+<hr>
+<p>使用感受，svelte使用起来更加的方便，而且布局划分的很简：script 内容、样式部分；外部事件的引用和python、java的文件引用类似，通过import导入。<br>同样在svelte官方网站中入门教程和一些实例，涉及到一些常用的功能。如鼠标点击事件，基本的运算，媒体载入等等。当我们开发网页时候，可以参考这些实例模块进一步的完善网页的功能，并根据需求作出相应的改进。<br>目前也只是刚刚的新手入门，还有非常多要学习的地方。</p>
+<p>待解决：<br>1.导入图片，不同于html 直接使用img标签src图片链接图片地址<br>svelte中在script中设置变量存储图片地址，再在下面&lt;img {}&gt;链接图片，缺少alt属性，会出现报错，该属性用于描述这个标签的用途。<br>加载本地图片时，一开始图片放在public文件夹中，在网页中一直无法显示，将图片路径放入src中可以显示，但后来又无法显示。<br>2.导入font-awesome.min icon组件包，icon一直无法显示。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/07/GitLab-CI-CD/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -463,7 +551,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>

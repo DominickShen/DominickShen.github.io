@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>GitLab CI/CD介绍</title>
+    <url>/2021/10/07/GitLab-CI-CD/</url>
+    <content><![CDATA[<h1 id="GitLab-CI-CD"><a href="#GitLab-CI-CD" class="headerlink" title="GitLab CI/CD"></a>GitLab CI/CD</h1><hr>
+<p><em>GitLab CI/CD</em><br>是一个内置在GitLab中的工具，用于通过持续方法进行软件开发：</p>
+<ul>
+<li>Continuous Integration (CI)  持续集成</li>
+<li>Continuous Delivery (CD)     持续交付</li>
+<li>Continuous Deployment (CD)   持续部署</li>
+</ul>
+<p>持续集成的工作原理是将小的代码块推送到Git仓库中托管的应用程序代码库中，并且每次推送时，都要运行一系列脚本来构建、测试和验证代码更改，然后再将其合并到主分支中。</p>
+<p>持续交付和部署相当于更进一步的CI，可以在每次推送到仓库默认分支的同时将应用程序部署到生产环境。</p>
+<p>这些方法使得可以在开发周期的早期发现bugs和errors，从而确保部署到生产环境的所有代码都符合为应用程序建立的代码标准。</p>
+<p>GitLab CI/CD 由一个名为 .gitlab-ci.yml 的文件进行配置，改文件位于仓库的根目录下。文件中指定的脚本由GitLab Runner执行。</p>
+<hr>
+<p>软件开发的持续方法基于自动执行脚本，以最大程度地减少在开发应用程序时引入错误的机会。从开发新代码到部署新代码，他们几乎不需要人工干预，甚至根本不需要干预。 </p>
+<p>它涉及到在每次小的迭代中就不断地构建、测试和部署代码更改，从而减少了基于已经存在bug或失败的先前版本开发新代码的机会。</p>
+<p><font color=#fd5433>Continuous Integration（持续集成) </font></p>
+<p>假设一个应用程序，其代码存储在GitLab的Git仓库中。开发人员每天都要多次推送代码更改。对于每次向仓库的推送，你都可以创建一组脚本来自动构建和测试你的应用程序，从而减少了向应用程序引入错误的机会。这种做法称为持续集成，对于提交给应用程序（甚至是开发分支）的每项更改，它都会自动连续进行构建和测试，以确保所引入的更改通过你为应用程序建立的所有测试，准则和代码合规性标准。 </p>
+<p><font color=#fd5433>Continuous Delivery（持续交付）</font></p>
+<p>持续交付是超越持续集成的更进一步的操作。应用程序不仅会在推送到代码库的每次代码更改时进行构建和测试，而且，尽管部署是手动触发的，但作为一个附加步骤，它也可以连续部署。此方法可确保自动检查代码，但需要人工干预才能从策略上手动触发以必输此次变更。</p>
+<p><font color=#fd5433>Continuous Deployment（持续部署）</font></p>
+<p>与持续交付类似，但不同之处在于，你无需将其手动部署，而是将其设置为自动部署。完全不需要人工干预即可部署你的应用程序。</p>
+]]></content>
+      <tags>
+        <tag>-导航 -分享</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/09/29/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -17,6 +45,38 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Svelte-Study</title>
+    <url>/2021/10/08/svelte-study/</url>
+    <content><![CDATA[<h1 id="Svelte心得"><a href="#Svelte心得" class="headerlink" title="Svelte心得"></a><strong>Svelte心得</strong></h1><h3 id="svelte的介绍"><a href="#svelte的介绍" class="headerlink" title="svelte的介绍"></a>svelte的介绍</h3><p>svelte是一种全新的构建用户界面的方法。传统框架React和Vue在浏览器中需要做大量的工作，而Svelte将在这些工作放到构建应用程序的编译阶段来处理。使用虚拟DOM差异对比不同。Svelte编写的代码在应用程序的状态更改时就能像做外科手术一样更新DOM。<br>优点：</p>
+<blockquote>
+<p>减少代码量；<br>无虚拟DOM，将代码编译成体积小、不依赖框架的普通JS代码，让应用程序无论运行还是启动都变得迅速；<br>真正的反映能力。</p>
+</blockquote>
+<p>以上内容为一些官方术语，作为一个新手来说一开始就分析svelte的优缺点有一定难度。即使网上一些优秀文章做了深入的分析，但看起来也是一知半解，不能很好的领悟。<br>svelte是一个比较新的框架，在学习之前应该要掌握HTML、CSS、JavaScript的相关知识，如果之前学过vue、react等框架的话，学习svelte将会很容易上手。</p>
+<p>一开始在svelte官网的入门教程中学习，可直接在线编写代码。少了安装配置的过程，新手即可立即在线编写调试代码，这适合前期的入门学习。<br>如果要通过sevlte框架来开发项目，需要自行安装配置svelte。使用终端创建对应文件夹（默认node等相关软件已经安装的情况下）<br>终端命令找到你需要创建的文件地址输入如下命令</p>
+<table><tr><td bgcolor=#282c35>
+
+<blockquote>
+<p> <font color=#b6bac5>degit sveltejs/template my-svelte-project  </font><br><font color=#b6bac5>cd my-svelte-project</font><br><font color=#b6bac5>code .</font></p>
+</blockquote>
+</td></tr></table>
+
+<p>即可通过vscode打开项目</p>
+<p><code>npm run dev</code></p>
+<p>即可运行。</p>
+<hr>
+<p>vscode有svelte的扩展库，同时也可以将项目上传到github中。关于svelte的相关学习资源并不多，主要的还是一些入门教程。在B站上看的视频学习链接：<br><a href="https://www.bilibili.com/video/BV1kK411H78s?from=search&amp;seid=9149985544011493031&amp;spm_id_from=333.337.0.0">https://www.bilibili.com/video/BV1kK411H78s?from=search&amp;seid=9149985544011493031&amp;spm_id_from=333.337.0.0</a></p>
+<hr>
+<p>使用感受，svelte使用起来更加的方便，而且布局划分的很简：script 内容、样式部分；外部事件的引用和python、java的文件引用类似，通过import导入。<br>同样在svelte官方网站中入门教程和一些实例，涉及到一些常用的功能。如鼠标点击事件，基本的运算，媒体载入等等。当我们开发网页时候，可以参考这些实例模块进一步的完善网页的功能，并根据需求作出相应的改进。<br>目前也只是刚刚的新手入门，还有非常多要学习的地方。</p>
+<p>待解决：<br>1.导入图片，不同于html 直接使用img标签src图片链接图片地址<br>svelte中在script中设置变量存储图片地址，再在下面&lt;img {}&gt;链接图片，缺少alt属性，会出现报错，该属性用于描述这个标签的用途。<br>加载本地图片时，一开始图片放在public文件夹中，在网页中一直无法显示，将图片路径放入src中可以显示，但后来又无法显示。<br>2.导入font-awesome.min icon组件包，icon一直无法显示。</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>-导航 -分享</tag>
+      </tags>
   </entry>
   <entry>
     <title>travel</title>
@@ -46,34 +106,6 @@
       <categories>
         <category>前端</category>
       </categories>
-      <tags>
-        <tag>-导航 -分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GitLab CI/CD介绍</title>
-    <url>/2021/10/07/GitLab-CI-CD/</url>
-    <content><![CDATA[<h1 id="GitLab-CI-CD"><a href="#GitLab-CI-CD" class="headerlink" title="GitLab CI/CD"></a>GitLab CI/CD</h1><hr>
-<p><em>GitLab CI/CD</em><br>是一个内置在GitLab中的工具，用于通过持续方法进行软件开发：</p>
-<ul>
-<li>Continuous Integration (CI)  持续集成</li>
-<li>Continuous Delivery (CD)     持续交付</li>
-<li>Continuous Deployment (CD)   持续部署</li>
-</ul>
-<p>持续集成的工作原理是将小的代码块推送到Git仓库中托管的应用程序代码库中，并且每次推送时，都要运行一系列脚本来构建、测试和验证代码更改，然后再将其合并到主分支中。</p>
-<p>持续交付和部署相当于更进一步的CI，可以在每次推送到仓库默认分支的同时将应用程序部署到生产环境。</p>
-<p>这些方法使得可以在开发周期的早期发现bugs和errors，从而确保部署到生产环境的所有代码都符合为应用程序建立的代码标准。</p>
-<p>GitLab CI/CD 由一个名为 .gitlab-ci.yml 的文件进行配置，改文件位于仓库的根目录下。文件中指定的脚本由GitLab Runner执行。</p>
-<hr>
-<p>软件开发的持续方法基于自动执行脚本，以最大程度地减少在开发应用程序时引入错误的机会。从开发新代码到部署新代码，他们几乎不需要人工干预，甚至根本不需要干预。 </p>
-<p>它涉及到在每次小的迭代中就不断地构建、测试和部署代码更改，从而减少了基于已经存在bug或失败的先前版本开发新代码的机会。</p>
-<p><font color=#fd5433>Continuous Integration（持续集成) </font></p>
-<p>假设一个应用程序，其代码存储在GitLab的Git仓库中。开发人员每天都要多次推送代码更改。对于每次向仓库的推送，你都可以创建一组脚本来自动构建和测试你的应用程序，从而减少了向应用程序引入错误的机会。这种做法称为持续集成，对于提交给应用程序（甚至是开发分支）的每项更改，它都会自动连续进行构建和测试，以确保所引入的更改通过你为应用程序建立的所有测试，准则和代码合规性标准。 </p>
-<p><font color=#fd5433>Continuous Delivery（持续交付）</font></p>
-<p>持续交付是超越持续集成的更进一步的操作。应用程序不仅会在推送到代码库的每次代码更改时进行构建和测试，而且，尽管部署是手动触发的，但作为一个附加步骤，它也可以连续部署。此方法可确保自动检查代码，但需要人工干预才能从策略上手动触发以必输此次变更。</p>
-<p><font color=#fd5433>Continuous Deployment（持续部署）</font></p>
-<p>与持续交付类似，但不同之处在于，你无需将其手动部署，而是将其设置为自动部署。完全不需要人工干预即可部署你的应用程序。</p>
-]]></content>
       <tags>
         <tag>-导航 -分享</tag>
       </tags>
