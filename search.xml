@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/09/29/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>GitLab CI/CD介绍</title>
     <url>/2021/10/07/GitLab-CI-CD/</url>
     <content><![CDATA[<h1 id="GitLab-CI-CD"><a href="#GitLab-CI-CD" class="headerlink" title="GitLab CI/CD"></a>GitLab CI/CD</h1><hr>
@@ -29,22 +47,36 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/09/29/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>travel</title>
+    <url>/2021/09/30/travel/</url>
+    <content><![CDATA[<h1 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h1><h2 id="旅行日记"><a href="#旅行日记" class="headerlink" title="旅行日记"></a>旅行日记</h2><blockquote>
+<p>找到一个真心喜爱的兴趣爱好，然后不计成本地付出时间和耐心，用心打磨，你收获的将不只是一个拿得出售的爱好；更重要的，还有一个脱胎换股的自己。<br>吃完早餐，我们前往位于平凉的崆峒山。<br>门票上写：“崆峒山位于甘肃平凉，东瞰西安，西接兰州，南邻宝鸡，北抵银川，是古丝绸之路之要冲，自然人文景观具有极高的观赏、文化和可靠价值。”<br>“然而对于我而言，崆峒山就是两个字，“空灵”。<br>“空灵”指这片山脉林海浩瀚，烟雾蒙锁，高峡平湖、山水一色，石府洞天，庙宇高塔的风景如画如修仙圣地般空灵，也指这里看淡名利潜心修行的僧人<br>和道士心中一片空灵，更指来到这里的我灵魂受到自然领子的沐浴洗礼，宛如走进缥缈仙境，完成脱胎换骨后所感受到的一种空灵。<br>      我们在山底坐索道徐徐而上，望着脚下的山水渐渐显露出一阴一阳相拥想抱的神态，如此和谐与完美。崆峒山道、儒佛三三教合一，道观和庙宇不急其数，<br>然后不同于某些知名寺院的商业化和浮躁气，崆峒山的仙灵之气孕育的是一方清净的修行之地。你可以看到女居士身着朴素的僧衣虔诚的叩首念经；可以看到<br>悠闲的僧人只顾念经不会在意游客的经过，更不会叫你停下来消费，可以看到年迈的老道士仿佛修炼除了仙风道骨。记得某这人说过，：人生是一场灵魂的修炼，<br>不是物质的盛宴。”希望带回一丝崆峒山的灵气，完成人生这场灵魂的修炼。</p>
+</blockquote>
+<hr>
+<blockquote>
+<blockquote>
+<p>读一本好书，就是在和高尚的人谈话。 <strong>——歌德</strong></p>
+</blockquote>
+</blockquote>
+<hr>
+<p>艾青</p>
+<p>　　假如我是一只鸟，</p>
+<p>　　我也就应用嘶哑的喉咙歌唱：</p>
+<p>　　这被暴风雨所打击的土地，</p>
+<p>　　这永远汹涌着我们的悲愤的河流，</p>
+<p>　　这无止息地吹刮着的激怒的风，</p>
+<p>　　和那来自林间的无比温柔的黎明……</p>
+<p>　　——然后我死了，</p>
+<p>　　连羽毛也腐烂在土地里面。</p>
+<p>　　为什么我的眼里常含泪水？</p>
+<p>　　因为我对这土地爱得深沉……</p>
 ]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>-导航 -分享</tag>
+      </tags>
   </entry>
   <entry>
     <title>Svelte-Study</title>
@@ -70,38 +102,6 @@
 <hr>
 <p>使用感受，svelte使用起来更加的方便，而且布局划分的很简：script 内容、样式部分；外部事件的引用和python、java的文件引用类似，通过import导入。<br>同样在svelte官方网站中入门教程和一些实例，涉及到一些常用的功能。如鼠标点击事件，基本的运算，媒体载入等等。当我们开发网页时候，可以参考这些实例模块进一步的完善网页的功能，并根据需求作出相应的改进。<br>目前也只是刚刚的新手入门，还有非常多要学习的地方。</p>
 <p>待解决：<br>1.导入图片，不同于html 直接使用img标签src图片链接图片地址<br>svelte中在script中设置变量存储图片地址，再在下面&lt;img {}&gt;链接图片，缺少alt属性，会出现报错，该属性用于描述这个标签的用途。<br>加载本地图片时，一开始图片放在public文件夹中，在网页中一直无法显示，将图片路径放入src中可以显示，但后来又无法显示。<br>2.导入font-awesome.min icon组件包，icon一直无法显示。</p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>-导航 -分享</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>travel</title>
-    <url>/2021/09/30/travel/</url>
-    <content><![CDATA[<h1 id="Travel"><a href="#Travel" class="headerlink" title="Travel"></a>Travel</h1><h2 id="旅行日记"><a href="#旅行日记" class="headerlink" title="旅行日记"></a>旅行日记</h2><blockquote>
-<p>找到一个真心喜爱的兴趣爱好，然后不计成本地付出时间和耐心，用心打磨，你收获的将不只是一个拿得出售的爱好；更重要的，还有一个脱胎换股的自己。<br>吃完早餐，我们前往位于平凉的崆峒山。<br>门票上写：“崆峒山位于甘肃平凉，东瞰西安，西接兰州，南邻宝鸡，北抵银川，是古丝绸之路之要冲，自然人文景观具有极高的观赏、文化和可靠价值。”<br>“然而对于我而言，崆峒山就是两个字，“空灵”。<br>“空灵”指这片山脉林海浩瀚，烟雾蒙锁，高峡平湖、山水一色，石府洞天，庙宇高塔的风景如画如修仙圣地般空灵，也指这里看淡名利潜心修行的僧人<br>和道士心中一片空灵，更指来到这里的我灵魂受到自然领子的沐浴洗礼，宛如走进缥缈仙境，完成脱胎换骨后所感受到的一种空灵。<br>      我们在山底坐索道徐徐而上，望着脚下的山水渐渐显露出一阴一阳相拥想抱的神态，如此和谐与完美。崆峒山道、儒佛三三教合一，道观和庙宇不急其数，<br>然后不同于某些知名寺院的商业化和浮躁气，崆峒山的仙灵之气孕育的是一方清净的修行之地。你可以看到女居士身着朴素的僧衣虔诚的叩首念经；可以看到<br>悠闲的僧人只顾念经不会在意游客的经过，更不会叫你停下来消费，可以看到年迈的老道士仿佛修炼除了仙风道骨。记得某这人说过，：人生是一场灵魂的修炼，<br>不是物质的盛宴。”希望带回一丝崆峒山的灵气，完成人生这场灵魂的修炼。</p>
-</blockquote>
-<hr>
-<blockquote>
-<blockquote>
-<p>读一本好书，就是在和高尚的人谈话。 <strong>——歌德</strong></p>
-</blockquote>
-</blockquote>
-<hr>
-<p>艾青</p>
-<p>　　假如我是一只鸟，</p>
-<p>　　我也就应用嘶哑的喉咙歌唱：</p>
-<p>　　这被暴风雨所打击的土地，</p>
-<p>　　这永远汹涌着我们的悲愤的河流，</p>
-<p>　　这无止息地吹刮着的激怒的风，</p>
-<p>　　和那来自林间的无比温柔的黎明……</p>
-<p>　　——然后我死了，</p>
-<p>　　连羽毛也腐烂在土地里面。</p>
-<p>　　为什么我的眼里常含泪水？</p>
-<p>　　因为我对这土地爱得深沉……</p>
 ]]></content>
       <categories>
         <category>前端</category>
